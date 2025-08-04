@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.sqlite3
+
+# Airflow
+logs/
+dags/__pycache__/
+airflow.db
+unittests.cfg
+
+# Docker
+.env
+*.log
+*.pid
+*.sock
+docker-compose.override.yml
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
