@@ -25,7 +25,7 @@ Este curso abrange os seguintes tópicos:
 
 ---
 
-## 🗂️ Estrutura do Projeto
+### 🗂️ Estrutura do Projeto
 
 ```bash
 curso_airflow/
@@ -35,7 +35,7 @@ curso_airflow/
 │   └── ingestao_postgres_s3.py
 │
 ├── plugins/               # Plugins customizados (se houver)
-
+│
 ├── docker-compose.yaml    # Arquivo para subir o ambiente com Docker
 │
 ├── .env                   # Variáveis de ambiente sensíveis
